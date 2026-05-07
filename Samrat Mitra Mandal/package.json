@@ -1,0 +1,20 @@
+{
+  "name": "samrat-mitra-mandal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium Ganeshotsav mandal website with React frontend and Express/Mongo backend.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace frontend\" \"npm run dev --workspace backend\"",
+    "build": "npm run build --workspace frontend",
+    "start": "npm run start --workspace backend",
+    "lint": "npm run lint --workspace frontend && npm run lint --workspace backend",
+    "seed": "npm run seed --workspace backend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

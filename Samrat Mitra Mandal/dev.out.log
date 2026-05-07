@@ -1,0 +1,174 @@
+
+> samrat-mitra-mandal@1.0.0 dev
+> concurrently "npm run dev --workspace frontend" "npm run dev --workspace backend"
+
+[0] 
+[0] > samrat-mitra-mandal-frontend@1.0.0 dev
+[0] > vite --host 0.0.0.0
+[0] 
+[1] 
+[1] > samrat-mitra-mandal-backend@1.0.0 dev
+[1] > nodemon src/server.js
+[1] 
+[1] [33m[nodemon] 3.1.14[39m
+[1] [33m[nodemon] to restart at any time, enter `rs`[39m
+[1] [33m[nodemon] watching path(s): *.*[39m
+[1] [33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[1] [32m[nodemon] starting `node src/server.js`[39m
+[0] 
+[0]   [32m[1mVITE[22m v7.3.3[39m  [2mready in [0m[1m480[22m[2m[0m ms[22m
+[0] 
+[0]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[0]   [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.0.102:[1m5173[22m/[39m
+[1] MongoDB unavailable, starting demo memory API: connect ECONNREFUSED 127.0.0.1:27017
+[1] API running on http://localhost:5000
+[1] [0mGET /health [32m200[0m 8.753 ms - 47[0m
+[1] [32m[nodemon] restarting due to changes...[39m
+[1] [32m[nodemon] restarting due to changes...[39m
+[1] [32m[nodemon] starting `node src/server.js`[39m
+[1] MongoDB unavailable, starting demo memory API: connect ECONNREFUSED 127.0.0.1:27017
+[1] API running on http://localhost:5000
+[1] [0mGET /health [32m200[0m 11.464 ms - 47[0m
+[1] [0mGET /api/events [32m200[0m 0.751 ms - 395[0m
+[1] [0mGET /api/events [32m200[0m 0.617 ms - 395[0m
+[1] [0mGET /favicon.ico [33m404[0m 0.650 ms - 43[0m
+[0] [2m11:58:06 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/AppContext.jsx, /src/styles.css[22m
+[0] [2m11:58:06 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/components/Layout.jsx, /src/pages/About.jsx, /src/pages/Events.jsx, /src/pages/Gallery.jsx, /src/pages/SocialInitiatives.jsx, /src/pages/LiveDarshan.jsx, /src/pages/Home.jsx[22m
+[0] [2m11:58:06 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/AppContext.jsx[22m Could not Fast Refresh ("useApp" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[0] [2m11:58:06 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/context/AppContext.jsx[22m
+[0] [2m11:58:25 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m11:58:25 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/components/SEO.jsx[22m
+[0] [2m11:58:26 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[0] [2m11:58:47 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.jsx, /src/styles.css[22m
+[0] [2m11:58:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/components/Countdown.jsx[22m
+[0] [2m11:59:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/About.jsx, /src/styles.css[22m
+[0] [2m11:59:51 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LiveDarshan.jsx, /src/styles.css[22m
+[0] [2m11:59:51 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Events.jsx, /src/styles.css[22m
+[0] [2m11:59:51 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Gallery.jsx, /src/styles.css[22m
+[0] [2m12:00:09 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Donations.jsx, /src/styles.css[22m
+[0] [2m12:00:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Donations.jsx, /src/styles.css[22m
+[0] [2m12:00:54 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Volunteer.jsx, /src/styles.css[22m
+[0] [2m12:01:05 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Volunteer.jsx, /src/styles.css[22m
+[0] [2m12:01:26 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/SocialInitiatives.jsx, /src/styles.css[22m
+[0] [2m12:01:26 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Contact.jsx, /src/styles.css[22m
+[0] [2m12:02:24 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx, /src/styles.css[22m
+[0] [2m12:02:25 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/styles.css[22m
+[0] [2m12:03:19 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:03:54 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Contact.jsx, /src/styles.css[22m
+[0] [2m12:03:54 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Home.jsx, /src/styles.css[22m
+[0] [2m12:03:55 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LiveDarshan.jsx, /src/styles.css[22m
+[0] [2m12:04:14 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminDashboard.jsx, /src/styles.css[22m
+[1] [0mGET /health [32m200[0m 0.450 ms - 47[0m
+[1] [0mGET /api/events [36m304[0m 1.164 ms - -[0m
+[0] [2m12:22:46 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:22:48 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:22:59 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:23:14 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:25:51 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:25:57 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:29:57 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:30:01 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:30:56 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:31:00 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:31:26 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:31:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:32:50 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[0] [2m12:32:50 am[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] C:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css:20:1: Unexpected }[39m
+[0]   Plugin: [35mvite:css[39m
+[0]   File: [36mC:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css[39m:20:0
+[0] [33m  18 |    font-weight: 900;
+[0]   19 |  }
+[0]   20 |  }
+[0]      |  ^
+[0]   21 |  
+[0]   22 |  .dark {[39m
+[0]       at Input.error (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\input.js:135:16)
+[0]       at Parser.unexpectedClose (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:587:22)
+[0]       at Parser.end (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:330:12)
+[0]       at Parser.parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:456:16)
+[0]       at parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parse.js:11:12)
+[0]       at new LazyResult (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\lazy-result.js:165:16)
+[0]       at Processor.process (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\processor.js:53:14)
+[0]       at runPostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30165:68)
+[0]       at async compilePostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30149:6)
+[0]       at async compileCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30079:26)
+[0]       at async TransformPluginContext.handler (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:29612:54)
+[0]       at async EnvironmentPluginContainer.transform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:28817:14)
+[0]       at async loadAndTransform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:22686:26)
+[0]       at async viteTransformMiddleware (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:24562:20)
+[0] [2m12:32:53 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[0] [2m12:32:53 am[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] C:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css:20:1: Unexpected }[39m
+[0]   Plugin: [35mvite:css[39m
+[0]   File: [36mC:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css[39m:20:0
+[0] [33m  18 |    font-weight: 900;
+[0]   19 |  }
+[0]   20 |  }
+[0]      |  ^
+[0]   21 |  
+[0]   22 |  .dark {[39m
+[0]       at Input.error (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\input.js:135:16)
+[0]       at Parser.unexpectedClose (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:587:22)
+[0]       at Parser.end (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:330:12)
+[0]       at Parser.parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:456:16)
+[0]       at parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parse.js:11:12)
+[0]       at new LazyResult (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\lazy-result.js:165:16)
+[0]       at Processor.process (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\processor.js:53:14)
+[0]       at runPostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30165:68)
+[0]       at async compilePostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30149:6)
+[0]       at async compileCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30079:26)
+[0]       at async TransformPluginContext.handler (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:29612:54)
+[0]       at async EnvironmentPluginContainer.transform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:28817:14)
+[0]       at async loadAndTransform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:22686:26)
+[0]       at async viteTransformMiddleware (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:24562:20)
+[0] [2m12:32:56 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:32:56 am[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] C:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css:20:1: Unexpected }[39m
+[0]   Plugin: [35mvite:css[39m
+[0]   File: [36mC:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css[39m:20:0
+[0] [33m  18 |    font-weight: 900;
+[0]   19 |  }
+[0]   20 |  }
+[0]      |  ^
+[0]   21 |  
+[0]   22 |  .dark {[39m
+[0]       at Input.error (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\input.js:135:16)
+[0]       at Parser.unexpectedClose (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:587:22)
+[0]       at Parser.end (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:330:12)
+[0]       at Parser.parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:456:16)
+[0]       at parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parse.js:11:12)
+[0]       at new LazyResult (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\lazy-result.js:165:16)
+[0]       at Processor.process (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\processor.js:53:14)
+[0]       at runPostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30165:68)
+[0]       at async compilePostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30149:6)
+[0]       at async compileCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30079:26)
+[0]       at async TransformPluginContext.handler (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:29612:54)
+[0]       at async EnvironmentPluginContainer.transform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:28817:14)
+[0]       at async loadAndTransform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:22686:26)
+[0]       at async viteTransformMiddleware (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:24562:20)
+[0] [2m12:32:59 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Layout.jsx, /src/styles.css[22m
+[0] [2m12:32:59 am[22m [31m[1m[vite][22m[39m [31mInternal server error: [postcss] C:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css:20:1: Unexpected }[39m
+[0]   Plugin: [35mvite:css[39m
+[0]   File: [36mC:/Users/bhushan/Samrat Mitra Mandal/frontend/src/styles.css[39m:20:0
+[0] [33m  18 |    font-weight: 900;
+[0]   19 |  }
+[0]   20 |  }
+[0]      |  ^
+[0]   21 |  
+[0]   22 |  .dark {[39m
+[0]       at Input.error (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\input.js:135:16)
+[0]       at Parser.unexpectedClose (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:587:22)
+[0]       at Parser.end (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:330:12)
+[0]       at Parser.parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parser.js:456:16)
+[0]       at parse (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\parse.js:11:12)
+[0]       at new LazyResult (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\lazy-result.js:165:16)
+[0]       at Processor.process (C:\Users\bhushan\Samrat Mitra Mandal\node_modules\postcss\lib\processor.js:53:14)
+[0]       at runPostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30165:68)
+[0]       at async compilePostCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30149:6)
+[0]       at async compileCSS (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:30079:26)
+[0]       at async TransformPluginContext.handler (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:29612:54)
+[0]       at async EnvironmentPluginContainer.transform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:28817:14)
+[0]       at async loadAndTransform (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:22686:26)
+[0]       at async viteTransformMiddleware (file:///C:/Users/bhushan/Samrat%20Mitra%20Mandal/node_modules/vite/dist/node/chunks/config.js:24562:20)
+[0] [2m12:33:12 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[0] [2m12:33:17 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[0] [2m12:33:39 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[0] [2m12:33:43 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m

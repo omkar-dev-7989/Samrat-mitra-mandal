@@ -1,0 +1,17 @@
+{
+  "name": "Samrat Mitra Mandal",
+  "short_name": "SMM Ganpati",
+  "description": "सम्राट मित्र मंडळाचे लाईव्ह दर्शन, कार्यक्रम, देणगी, गॅलरी आणि सामाजिक सेवा.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff7ed",
+  "theme_color": "#c2410c",
+  "icons": [
+    {
+      "src": "/images/ganpati-hero.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
