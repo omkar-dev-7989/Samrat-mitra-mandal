@@ -56,7 +56,7 @@ export default function Layout() {
             <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
               <img src="/images/mandal/new samarat.png" alt="Samrat Mitra Mandal" className="h-20 w-20 flex-shrink-0 drop-shadow-lg" />
               <div>
-                <p className="mandal-title font-display text-2xl sm:text-4xl leading-tight animate-glow">सम्राट मित्र मंडळ</p>
+                <p className="mandal-title font-display text-lg sm:text-2xl leading-tight animate-glow">सम्राट मित्र मंडळ</p>
               </div>
             </Link>
 
